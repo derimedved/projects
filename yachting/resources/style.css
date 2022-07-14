@@ -1,0 +1,65 @@
+/*
+Theme Name:         yachting
+Theme URI:          https://roots.io/sage/
+Description:        Sage is a WordPress starter theme.
+Version:            9.0.10
+Author:             Roots
+Author URI:         https://roots.io/
+Text Domain:        sage
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+.loading {
+	position: relative;
+}
+.loading * {
+	opacity: .7;
+}
+.loading:after {
+	content: "";
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url(assets/img/spinner.svg) center no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+	z-index: 16;
+	background-size: contain;
+	animation:spin .7s linear infinite;
+	-webkit-animation:spin .7s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.status {
+	margin-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.status .error {
+	color: #e96387;
+}
+.status .success {
+	color: #45ac6f;
+}
+
+
+.wpcf7 .ajax-loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+
+/* body.admin-bar .header {top: 32px;} */
