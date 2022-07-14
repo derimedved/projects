@@ -1,0 +1,148 @@
+/*
+Theme Name: Diamonds
+Description:
+*/
+
+.product-slider .swiper-slide .item .text-wrap .info span.price del {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #20206A;
+    margin-left: 14px;
+}
+.product-slider .swiper-slide .item .text-wrap .info span.price del bdi{
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+}
+.product-slider .swiper-slide .item .text-wrap .info span.price ins {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+.product-slider .swiper-slide .item .text-wrap .info span.price del, .product-slider .swiper-slide .item .text-wrap .info span.price ins{
+    display: inline-block;
+}
+
+
+.product-inner .info-wrap p.cost del {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #20206a;
+    text-decoration: line-through;
+}
+
+.product-inner .info-wrap p.cost ins, .product-inner .info-wrap p.cost .amount {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1B1B1B;
+    text-decoration: none;
+}
+.product-inner .select-line button {
+    min-width: 130px;
+}
+/* Chrome, Safari, Edge, Opera */
+.qty::-webkit-outer-spin-button,
+.qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.qty {
+  -moz-appearance: textfield;
+}
+
+
+.added_to_cart, .add_to_cart_button.ajax_add_to_cart.added img{
+    display: none !important;
+}
+.woocommerce a.button.added::after {
+    margin-left: 0 !important;
+}
+.product-inner .info-wrap h5 a{
+    margin: 0 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #20206A;
+}
+.checkout-block .total .item-total p b span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+    padding: 2px 2px 2px 0;
+    background: #E9E9F0;
+    top: 1px;
+    position: relative;
+}
+
+.checkout-block form.woocommerce-checkout .wrap-checkout{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.product .wrap .item .text-wrap .info .price ins {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.product .wrap .item .text-wrap .info .price del {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #20206A;
+}
+
+.spin{
+     animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 575px){
+    .product-inner .info-wrap p.cost del, .product-inner .info-wrap p.cost ins {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+}
