@@ -1,0 +1,33 @@
+/*
+Theme Name: Crosspoint
+Description: 
+*/
+
+/*#cookie-law-info-bar{
+	background-color: transparent !important;
+	box-shadow: none !important;
+	position: absolute !important;
+}*/
+#cookie-law-info-bar span br{
+	display: none;
+}
+#cookie-law-info-bar p a, #cookie-law-info-bar p {
+	font-family: Montserrat !important;
+	font-size: 14px;
+}
+#cookie-law-info-bar p a{
+	font-weight: 600;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    background-color: transparent !important;
+    margin: 0 22px;
+	cursor: pointer;
+}
+.link-team{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
