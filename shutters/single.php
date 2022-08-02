@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?> 
 
 	<main>
 		<section class="insights-detail hover-block">
