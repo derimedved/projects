@@ -1,0 +1,22 @@
+.payment_method_allegrocredit {
+    background: transparent !important;
+}
+
+.allegro_description {
+    display: flex;
+}
+
+.allegro_description img {
+    width: 95px !important;
+    margin-right: 30px !important;
+}
+
+.allegro_description p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #044E6C;
+    margin-top: 10px;
+}
